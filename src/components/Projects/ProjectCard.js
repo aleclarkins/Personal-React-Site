@@ -1,7 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Button } from "react-bootstrap";
-import profilePic from "../../images/ProfilePic.png";
-import { AiTwotoneProject } from "react-icons/ai";
+import { Row, Col } from "react-bootstrap";
 import "./Projects.css";
 import projectOnePhoto from "../../images/ProjectPhotoOne.png";
 
@@ -62,7 +60,11 @@ function ProjectCard() {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
           </Col>
         </Row>
         <Row style={{ padding: "35px 0", textAlign: "right" }}>
@@ -72,7 +74,11 @@ function ProjectCard() {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
           </Col>
           <Col
             data-aos="fade-left"
@@ -170,7 +176,11 @@ function ProjectCard() {
             data-aos-once="true"
             data-aos-anchor-placement="center-bottom"
           >
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
           </Col>
         </Row>
       </div>
@@ -210,7 +220,11 @@ function ProjectCard() {
               HTML5 CSS3 Bootstrap Javascript MySQL
             </p>
 
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
             <p
               className="project-paragraph"
               style={{
@@ -269,7 +283,11 @@ function ProjectCard() {
               HTML5 CSS3 Bootstrap Javascript MySQL
             </p>
 
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
             <p
               className="project-paragraph"
               style={{
@@ -328,7 +346,11 @@ function ProjectCard() {
               HTML5 CSS3 Bootstrap Javascript MySQL
             </p>
 
-            <img src={projectOnePhoto} style={{ width: "100%" }} />
+            <img
+              alt="project-photo"
+              src={projectOnePhoto}
+              style={{ width: "100%" }}
+            />
             <p
               className="project-paragraph"
               style={{

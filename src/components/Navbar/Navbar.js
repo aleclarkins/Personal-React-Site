@@ -7,12 +7,10 @@ import { Container, Button } from "react-bootstrap";
 import { GoMarkGithub } from "react-icons/go";
 import { AiOutlineHome, AiOutlineProject } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { RiPagesLine, RiMessage2Line } from "react-icons/ri";
+import { RiMessage2Line } from "react-icons/ri";
 import { BsCardList } from "react-icons/bs";
 
-function _Navbar() {
-  const navbarLogo = "<AlecLarkins />";
-
+function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
@@ -43,7 +41,7 @@ function _Navbar() {
             className="navBrand"
             href="#home"
           >
-            <img className="webLogo" src={logo} />
+            <img alt="website-logo" className="webLogo" src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle
             onClick={() => {
@@ -125,4 +123,4 @@ function _Navbar() {
   );
 }
 
-export default _Navbar;
+export default NavBar;

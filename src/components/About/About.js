@@ -5,9 +5,7 @@ import devPic from "../../images/ProfilePicOverlay.png";
 // import Navbar from "react-bootstrap/Navbar";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
-import Nav from "react-bootstrap/Nav";
 
-import { AiOutlineHome } from "react-icons/ai";
 import { BsFillDiamondFill } from "react-icons/bs";
 
 import {
@@ -31,8 +29,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function About() {
-  const [activeTab, setActiveTab] = useState("active");
-
   // function tabClick(object) {
   //   console.log(object);
   // }
@@ -119,6 +115,7 @@ function About() {
             </Col>
             <Col md={4} className="about-content-right">
               <img
+                alt="photo-of-Alec"
                 data-aos="fade-left"
                 data-aos-offset="100"
                 data-aos-once="true"

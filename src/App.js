@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import _Navbar from "./components/Navbar/Navbar.js";
+import NavBar from "./components/Navbar/Navbar.js";
 import Home from "./components/Home/Home.js";
 import About from "./components/About/About.js";
 import Projects from "./components/Projects/Projects.js";
-import Resume from "./components/Resume/Resume.js";
 import ContactForm from "./components/ContactForm/ContactForm.js";
 import Footer from "./components/Footer/Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,7 +23,7 @@ function App() {
     <div>
       <div id={load ? "preloader" : "preloader-none"}></div>
       <div>
-        <_Navbar />
+        <NavBar />
         <Home />
         <About />
         <Projects />

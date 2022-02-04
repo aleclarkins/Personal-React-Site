@@ -1,12 +1,11 @@
 import React from "react";
-import { Row, Col, Form, Button, Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import {
   AiFillInstagram,
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineTwitter,
 } from "react-icons/ai";
-import ProjectCard from "../Projects/ProjectCard";
 import "./ContactForm.css";
 
 function ContactForm() {
