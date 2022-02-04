@@ -1,0 +1,227 @@
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #6998ab !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #6998ab !important;
+}
+
+.home-section-main {
+  background-color: #f4f9fc;
+  padding: 14.5rem 0 8rem;
+}
+
+.home-content-left {
+  /* background-color: #f8ede3; */
+  padding: 10rem 0;
+  text-align: left;
+}
+
+.home-content-left h1 {
+  padding-left: 65px;
+  text-align: left;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.typewriter-div {
+  padding-left: 65px;
+}
+@media (max-width: 1399px) {
+  .home-content-left h1 {
+    font-size: 3rem;
+    padding-left: 60px;
+  }
+  .typewriter-div {
+    padding-left: 60px;
+  }
+}
+@media (max-width: 1199px) {
+  .home-content-left h1 {
+    font-size: 2.5rem;
+    padding-left: 50px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.7em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.7em !important;
+  }
+  .typewriter-div {
+    padding-left: 50px;
+  }
+  .home-title {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .home-content-left h1 {
+    padding-left: 27px;
+  }
+  .typewriter-div {
+    padding-left: 27px;
+  }
+  .home-title {
+    margin: 0 0 0 -65px !important;
+  }
+}
+@media (max-width: 859px) {
+  .home-content-left h1 {
+    padding-left: 21px;
+    font-size: 2rem;
+  }
+  .typewriter-div {
+    padding-left: 21px;
+  }
+  .home-title {
+    margin: 0 -25px 0 35px !important;
+    padding: 1rem 0 !important;
+  }
+  .home-content-right img {
+    width: 250px;
+    padding: 65px 0;
+  }
+}
+@media (max-width: 767px) {
+  .home-content-left h1 {
+    padding-left: 21px;
+    font-size: 3.8rem;
+  }
+  .home-title {
+    margin: -140px -30px 0 -30px !important;
+    padding: 1rem 0 !important;
+  }
+  .Typewriter__wrapper {
+    font-size: 2.5em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.5em !important;
+  }
+  .home-content-right img {
+    width: 430px;
+    padding: 0;
+    margin-top: -100px;
+  }
+}
+@media (max-width: 630px) {
+  .home-title {
+    margin: -140px 30px 0 30px !important;
+  }
+  .home-content-left h1 {
+    padding-left: 23px;
+    font-size: 2.4rem;
+  }
+  .typewriter-div {
+    padding-left: 23px;
+  }
+  .Typewriter__wrapper {
+    font-size: 2em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2em !important;
+  }
+  .home-content-right img {
+    width: 380px;
+  }
+}
+@media (max-width: 500px) {
+  .home-title {
+    margin: -220px 35px 0 !important;
+  }
+  .home-content-left h1 {
+    padding-left: 27px;
+    font-size: 2.2rem;
+  }
+  .typewriter-div {
+    padding-left: 27px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.8em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.8em !important;
+  }
+  .home-content-right img {
+    width: 380px;
+    margin-top: -190px;
+  }
+}
+@media (max-width: 415px) {
+  .home-title {
+    margin-top: -200px !important;
+  }
+  .home-content-left h1 {
+    padding-left: 18px;
+    font-size: 1.7rem;
+  }
+  .typewriter-div {
+    padding-left: 18px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.4em !important;
+  }
+  .home-content-right img {
+    width: 300px;
+  }
+}
+.home-content-right {
+  /* background-color: #f8ede3; */
+  text-align: center;
+  padding: 2rem 0;
+}
+.home-content-right img {
+  -webkit-filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.4));
+}
+
+.buttons {
+  padding: 10px 0 10px;
+}
+
+.rounded-pill {
+  background-color: #4fbdba !important;
+  border-color: #4fbdba !important;
+}
+
+.profilePic {
+  width: 25rem;
+  animation-name: hover-long;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hover-long {
+  0% {
+    transform: translate(0, -30px);
+  }
+  50% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, -30px);
+  }
+}
+
+.home-title {
+  animation-name: hover;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hover {
+  0% {
+    transform: translate(0, -15px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}

@@ -1,0 +1,69 @@
+.navItem {
+  margin-left: 3rem;
+  /* font-size: 20px; */
+
+  /* Need to remove these whend done */
+  /* width: 135px;
+  font-weight: normal !important;
+  padding-bottom: 0px !important;
+  text-align: center !important;
+  background: green !important;
+  color: #fff !important;
+  border-radius: 0px !important;
+  height: 0px !important;
+  font-size: 20px !important;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 40%) !important;
+  border: 0px !important; */
+}
+.navItem:hover {
+  color: #fff !important;
+}
+
+a.navItem.nav-link.active {
+  color: #1a374d !important;
+  background-color: transparent !important;
+}
+a.navItem.nav-link.active:hover {
+  color: #b1d0e0 !important;
+}
+span {
+  font-weight: 500;
+}
+.webLogo {
+  width: 4rem;
+  padding-left: 10px;
+}
+
+.btn-scale:hover {
+  transform: scale(1.05) !important;
+  transition: all 0.5s ease 0s !important;
+}
+
+/* Added from Github sample*/
+.sticky {
+  /* background-color: #212038d8 !important; */
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+.navbar {
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem !important;
+}
+
+/* Added from Github sample*/
+.navbar-nav {
+  margin: 12px 0 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1041px) {
+  .navItem.nav-link {
+    margin-top: -25px !important;
+  }
+  .navbar {
+    height: 80px !important;
+  }
+}
