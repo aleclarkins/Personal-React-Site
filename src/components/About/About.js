@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 import devPic from "../../images/ProfilePicOverlay.png";
-// import Navbar from "react-bootstrap/Navbar";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 
@@ -115,7 +114,7 @@ function About() {
             </Col>
             <Col md={4} className="about-content-right">
               <img
-                alt="photo-of-Alec"
+                alt="portrait photo of Alec Larkins"
                 data-aos="fade-left"
                 data-aos-offset="100"
                 data-aos-once="true"

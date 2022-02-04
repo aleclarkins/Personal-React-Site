@@ -61,7 +61,7 @@ function ProjectCard() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              alt="project-photo"
+              alt="project one"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
@@ -75,7 +75,7 @@ function ProjectCard() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              alt="project-photo"
+              alt="project two"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
@@ -177,7 +177,7 @@ function ProjectCard() {
             data-aos-anchor-placement="center-bottom"
           >
             <img
-              alt="project-photo"
+              alt="project three"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
@@ -221,7 +221,7 @@ function ProjectCard() {
             </p>
 
             <img
-              alt="project-photo"
+              alt="project one responsive version"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
@@ -284,7 +284,7 @@ function ProjectCard() {
             </p>
 
             <img
-              alt="project-photo"
+              alt="project two responsive version"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
@@ -347,7 +347,7 @@ function ProjectCard() {
             </p>
 
             <img
-              alt="project-photo"
+              alt="project three responsive version"
               src={projectOnePhoto}
               style={{ width: "100%" }}
             />
