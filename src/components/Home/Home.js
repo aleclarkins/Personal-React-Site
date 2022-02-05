@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import profilePic from "../../images/AstronautCartoon.png";
+import astronautPicMobile from "../../images/AstronautWebsiteImage(Mobile).png";
 import Typerwriter from "./Typewriter";
 import { Container, Row, Col } from "react-bootstrap";
 import { GoMarkGithub } from "react-icons/go";
@@ -48,11 +49,12 @@ function Home() {
               </div>
             </Col>
             <Col md={6} className="home-content-right">
+              <img alt="astronaut" src={profilePic} className="profilePic" />
               <img
-                alt="astronaut"
-                src={profilePic}
-                className="profilePic"
-              ></img>
+                alt="astronaut mobile"
+                src={astronautPicMobile}
+                className="profilePicMobile"
+              />
             </Col>
           </Row>
         </Container>

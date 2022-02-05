@@ -148,6 +148,9 @@
     width: 380px;
     margin-top: -190px;
   }
+  .profilePic {
+    display: none !important;
+  }
 }
 @media (max-width: 415px) {
   .home-title {
@@ -170,6 +173,11 @@
     width: 300px;
   }
 }
+@media (min-width: 501px) {
+  .profilePicMobile {
+    display: none !important;
+  }
+}
 .home-content-right {
   /* background-color: #f8ede3; */
   text-align: center;
@@ -190,6 +198,12 @@
 }
 
 .profilePic {
+  width: 25rem;
+  animation-name: hover-long;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.profilePicMobile {
   width: 25rem;
   animation-name: hover-long;
   animation-duration: 8s;
