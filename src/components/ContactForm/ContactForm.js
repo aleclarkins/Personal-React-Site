@@ -29,9 +29,7 @@ function ContactForm() {
           Contact Me
           <span style={{ color: "#6998AB", fontSize: "5rem" }}>.</span>
         </h1>
-        {/* <p className="content-title-description">
-                Allow me to introduce myself.
-              </p> */}
+
         <hr
           style={{
             width: "55px",
@@ -92,7 +90,10 @@ function ContactForm() {
             />
           </a>
 
-          <a style={{ padding: "10px" }} href="https://www.linkedin.com">
+          <a
+            style={{ padding: "10px" }}
+            href="https://www.linkedin.com/in/alecsander-larkins/"
+          >
             <AiFillLinkedin
               className="socialLinks"
               style={{ margin: "0 10px" }}

@@ -14,7 +14,6 @@
 }
 
 .home-content-left {
-  /* background-color: #f8ede3; */
   padding: 10rem 0;
   text-align: left;
 }
@@ -148,7 +147,7 @@
     width: 380px;
     margin-top: -190px;
   }
-  .profilePic {
+  .astronautPic {
     display: none !important;
   }
 }
@@ -174,12 +173,11 @@
   }
 }
 @media (min-width: 501px) {
-  .profilePicMobile {
+  .astronautPicMobile {
     display: none !important;
   }
 }
 .home-content-right {
-  /* background-color: #f8ede3; */
   text-align: center;
   padding: 2rem 0;
 }
@@ -197,13 +195,13 @@
   border-color: #4fbdba !important;
 }
 
-.profilePic {
+.astronautPic {
   width: 25rem;
   animation-name: hover-long;
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
-.profilePicMobile {
+.astronautPicMobile {
   width: 25rem;
   animation-name: hover-long;
   animation-duration: 8s;

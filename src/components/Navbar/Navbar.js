@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./Navbar.css";
-import logo from "../../images/AL-Logo.png";
 import { Container, Button } from "react-bootstrap";
-import { GoMarkGithub } from "react-icons/go";
 import { AiOutlineHome, AiOutlineProject } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
+import { BsPerson, BsCardList } from "react-icons/bs";
+import { GoMarkGithub } from "react-icons/go";
 import { RiMessage2Line } from "react-icons/ri";
-import { BsCardList } from "react-icons/bs";
+import logo from "../../images/AL-Logo.png";
+import "./Navbar.css";
 
 function NavBar() {
   const [navColour, updateNavbar] = useState(false);
@@ -30,7 +29,6 @@ function NavBar() {
       <Navbar
         className={navColour ? "sticky" : "navbar"}
         fixed="top"
-        // bg="transparent"
         variant="light"
         expand="lg"
         expanded={expand}
@@ -38,10 +36,10 @@ function NavBar() {
         <Container fluid>
           <Navbar.Brand
             onClick={() => setExpand(false)}
-            className="navBrand"
+            className="nav-brand"
             href="#home"
           >
-            <img alt="website-logo" className="webLogo" src={logo} />
+            <img alt="website logo" className="web-logo" src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle
             onClick={() => {
@@ -52,8 +50,8 @@ function NavBar() {
             <Nav className="ml-auto">
               <Nav.Link
                 onClick={() => setExpand(false)}
-                activeClassName="activeLink"
-                className="navItem"
+                activeClassName="active-link"
+                className="navbar-item"
                 href="#home"
               >
                 <AiOutlineHome size={20} style={{ paddingBottom: 4 }} />
@@ -62,7 +60,7 @@ function NavBar() {
 
               <Nav.Link
                 onClick={() => setExpand(false)}
-                className="navItem"
+                className="navbar-item"
                 href="#about"
               >
                 <BsPerson size={20} style={{ paddingBottom: 4 }} />
@@ -70,7 +68,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpand(false)}
-                className="navItem"
+                className="navbar-item"
                 href="#Skillset"
               >
                 <BsCardList size={20} style={{ paddingBottom: 4 }} />
@@ -78,7 +76,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpand(false)}
-                className="navItem"
+                className="navbar-item"
                 href="#Projects"
               >
                 <AiOutlineProject size={20} style={{ paddingBottom: 4 }} />
@@ -86,7 +84,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpand(false)}
-                className="navItem"
+                className="navbar-item"
                 href="#ContactForm"
               >
                 <RiMessage2Line size={20} style={{ paddingBottom: 4 }} />
@@ -94,7 +92,7 @@ function NavBar() {
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpand(false)}
-                className="navItem"
+                className="navbar-item"
                 href="#ContactForm"
               >
                 <Button
@@ -112,7 +110,7 @@ function NavBar() {
                   }}
                 >
                   <GoMarkGithub size={20} style={{ paddingBottom: 4 }} />
-                  <span className="githubButton"> Github</span>
+                  <span className="nav-button"> Github</span>
                 </Button>
               </Nav.Link>
             </Nav>

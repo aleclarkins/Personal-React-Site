@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import "./Projects.css";
 import projectOnePhoto from "../../images/ProjectPhotoOne.png";
+import "./Projects.css";
 
 function ProjectCard() {
   return (
@@ -195,7 +195,6 @@ function ProjectCard() {
           <Col
             style={{
               padding: "18px 0px 18px",
-              // marginRight: "-100px",
               zIndex: "1",
             }}
           >
@@ -228,9 +227,6 @@ function ProjectCard() {
             <p
               className="project-paragraph"
               style={{
-                // padding: "20px",
-                // backgroundColor: "#1A374D",
-                // borderRadius: "10px",
                 marginTop: "20px",
                 color: "#1A374D",
                 fontSize: "1.25rem",
@@ -258,7 +254,6 @@ function ProjectCard() {
           <Col
             style={{
               padding: "18px 0px 18px",
-              // marginRight: "-100px",
               zIndex: "1",
             }}
           >
@@ -291,9 +286,6 @@ function ProjectCard() {
             <p
               className="project-paragraph"
               style={{
-                // padding: "20px",
-                // backgroundColor: "#1A374D",
-                // borderRadius: "10px",
                 marginTop: "20px",
                 color: "#1A374D",
                 fontSize: "1.25rem",
@@ -321,7 +313,6 @@ function ProjectCard() {
           <Col
             style={{
               padding: "18px 0px 18px",
-              // marginRight: "-100px",
               zIndex: "1",
             }}
           >
@@ -354,9 +345,6 @@ function ProjectCard() {
             <p
               className="project-paragraph"
               style={{
-                // padding: "20px",
-                // backgroundColor: "#1A374D",
-                // borderRadius: "10px",
                 marginTop: "20px",
                 color: "#1A374D",
                 fontSize: "1.25rem",

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard.js";
-import "./Projects.css";
 
 function Project() {
   return (

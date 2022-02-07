@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import "./Home.css";
-import profilePic from "../../images/AstronautCartoon.png";
-import astronautPicMobile from "../../images/AstronautWebsiteImage(Mobile).png";
-import Typerwriter from "./Typewriter";
 import { Container, Row, Col } from "react-bootstrap";
+import Typerwriter from "./Typewriter";
 import { GoMarkGithub } from "react-icons/go";
+import astronautPic from "../../images/AstronautCartoon.png";
+import astronautPicMobile from "../../images/AstronautWebsiteImage(Mobile).png";
+import "./Home.css";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -36,24 +36,19 @@ function Home() {
                 <h1>Hi, I'm Alec Larkins{GoMarkGithub}</h1>
                 <div className="typewriter-div">
                   <Typerwriter />
-                  {/* <div className="buttons">
-                    <Button
-                      className="rounded-pill"
-                      style={{ marginRight: 10 }}
-                    >
-                      Contact Me
-                    </Button>
-                    <Button className="rounded-pill">View Resume</Button>
-                  </div> */}
                 </div>
               </div>
             </Col>
             <Col md={6} className="home-content-right">
-              <img alt="astronaut" src={profilePic} className="profilePic" />
+              <img
+                alt="astronaut"
+                src={astronautPic}
+                className="astronautPic"
+              />
               <img
                 alt="astronaut mobile"
                 src={astronautPicMobile}
-                className="profilePicMobile"
+                className="astronautPicMobile"
               />
             </Col>
           </Row>

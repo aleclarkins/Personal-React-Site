@@ -11,7 +11,52 @@
 
 .btn-rise:hover {
   background-color: #ecb365 !important;
-  /* color: #ecb365; */
+  transform: translateY(-0.25em);
+  transition: all 0.25s;
+}
+
+.btn-rise:hover > span {
+  color: #fff !important;
+}
+@media (max-width: 1199px) {
+  .projectCardsDiv {
+    display: none !important;
+  }
+}
+@media (max-width: 1499px) {
+  .contact-section {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 889px) {
+  .contact-container {
+    padding: 6rem 0 !important;
+    width: 50% !important;
+  }
+}
+@media (max-width: 713px) {
+  .contact-container {
+    width: 60% !important;
+  }
+}
+@media (max-width: 500px) {
+  .contact-container {
+    width: 70% !important;
+  }
+}
+.socialLinks {
+  color: #6998ab;
+}
+
+.socialLinks:hover,
+.socialLinks:focus {
+  color: #ecb365;
+  transform: translateY(-0.25em);
+  transition: all 0.25s;
+}
+
+.btn-rise:hover {
+  background-color: #ecb365 !important;
   transform: translateY(-0.25em);
   transition: all 0.25s;
 }

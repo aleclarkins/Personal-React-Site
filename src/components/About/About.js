@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./About.css";
 import devPic from "../../images/ProfilePicOverlay.png";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import "./About.css";
 
 import { BsFillDiamondFill } from "react-icons/bs";
 
@@ -28,9 +28,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function About() {
-  // function tabClick(object) {
-  //   console.log(object);
-  // }
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -51,9 +48,7 @@ function About() {
                 About Me
                 <span style={{ color: "#6998AB", fontSize: "5rem" }}>.</span>
               </h1>
-              {/* <p className="content-title-description">
-                Allow me to introduce myself.
-              </p> */}
+
               <hr
                 style={{
                   width: "55px",
