@@ -11,7 +11,7 @@ This is the first iteration of my personal website that I created to feature my 
 <div align="center">
   <img alt="Mockup" src="./src/images/aleclarkins-site.png" />
 </div>
-<div>
+<div align="center">
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
