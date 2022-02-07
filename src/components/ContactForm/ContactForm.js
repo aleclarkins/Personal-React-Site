@@ -82,7 +82,11 @@ function ContactForm() {
           data-aos-anchor-placement="bottom-bottom"
           style={{ margin: "40px 0" }}
         >
-          <a style={{ padding: "10px" }} href="https://www.instagram.com">
+          <a
+            style={{ padding: "10px" }}
+            target="_blank"
+            href="https://www.instagram.com"
+          >
             <AiFillInstagram
               className="socialLinks"
               style={{ margin: "0 10px" }}
@@ -92,6 +96,7 @@ function ContactForm() {
 
           <a
             style={{ padding: "10px" }}
+            target="_blank"
             href="https://www.linkedin.com/in/alecsander-larkins/"
           >
             <AiFillLinkedin
@@ -102,6 +107,7 @@ function ContactForm() {
           </a>
           <a
             style={{ padding: "10px" }}
+            target="_blank"
             href="https://www.github.io"
             className="socialLinks"
           >
@@ -113,6 +119,7 @@ function ContactForm() {
           </a>
           <a
             style={{ padding: "10px" }}
+            target="_blank"
             href="https://www.twitter.com"
             className="socialLinks"
           >
