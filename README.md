@@ -12,6 +12,10 @@ This is the first iteration of my personal website that I created to feature my 
   <img alt="Mockup" src="./src/images/aleclarkins-site.png" />
 </div>
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
 ## Features
 
 **📱 Responsive**
