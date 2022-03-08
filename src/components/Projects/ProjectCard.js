@@ -45,7 +45,9 @@ function ProjectCard() {
                   textDecoration: "none",
                 }}
               >
-                View Site <BiLinkExternal />
+                <span className="websiteLink">
+                  View Site <BiLinkExternal className="websiteLink" />
+                </span>
               </a>
             </div>
             <p
@@ -138,8 +140,9 @@ function ProjectCard() {
                   textDecoration: "none",
                 }}
               >
-                <span className="websiteLink">View Site</span>{" "}
-                <BiLinkExternal className="websiteLink" />
+                <span className="websiteLink">
+                  View Site <BiLinkExternal className="websiteLink" />
+                </span>
               </a>
             </div>
             <p
@@ -200,7 +203,9 @@ function ProjectCard() {
                   textDecoration: "none",
                 }}
               >
-                View Site <BiLinkExternal />
+                <span className="websiteLink">
+                  View Site <BiLinkExternal className="websiteLink" />
+                </span>
               </a>
             </div>
             <p
