@@ -35,17 +35,18 @@ function ProjectCard() {
             >
               Socify
             </h2>
-            <a
-              href="socify.vercel.app"
-              target="_blank"
-              style={{
-                marginBottom: "12px",
-                color: "#6998AB",
-                textDecoration: "none",
-              }}
-            >
-              View Site <BiLinkExternal />
-            </a>
+            <div style={{ marginBottom: "6px" }}>
+              <a
+                href="socify.vercel.app"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 padding: "20px",
