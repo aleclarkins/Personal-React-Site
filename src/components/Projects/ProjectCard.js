@@ -42,9 +42,6 @@ function ProjectCard() {
                 style={{
                   color: "#6998AB",
                   textDecoration: "none",
-                  hover: {
-                    color: "#ECB365",
-                  },
                 }}
               >
                 View Site <BiLinkExternal />
@@ -93,7 +90,14 @@ function ProjectCard() {
             />
           </Col>
         </Row>
-        <Row style={{ padding: "35px 0", textAlign: "right" }}>
+        <Row
+          style={{
+            padding: "35px 0",
+            display: "flex",
+            alignItems: "center",
+            textAlign: "right",
+          }}
+        >
           <Col
             data-aos="fade-right"
             data-aos-offset="0"
@@ -123,13 +127,18 @@ function ProjectCard() {
             >
               M L Shop
             </h2>
-            <a
-              href="mlshopusa.com"
-              target="_blank"
-              style={{ marginBottom: "6px" }}
-            >
-              www.mlshopusa.com
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="mlshopusa.com"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 padding: "20px",
@@ -154,7 +163,9 @@ function ProjectCard() {
             </p>
           </Col>
         </Row>
-        <Row style={{ padding: "35px 0" }}>
+        <Row
+          style={{ padding: "35px 0", display: "flex", alignItems: "center" }}
+        >
           <Col
             data-aos="fade-right"
             data-aos-offset="150"
@@ -176,13 +187,18 @@ function ProjectCard() {
             >
               Portfolio
             </h2>
-            <a
-              href="www.aleclarkins.com"
-              target="_blank"
-              style={{ marginBottom: "6px" }}
-            >
-              www.aleclarkins.com
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="aleclarkins.com"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 padding: "20px",
@@ -244,13 +260,18 @@ function ProjectCard() {
             >
               Socify
             </h2>
-            <a
-              href="socify.vercel.app"
-              target="_blank"
-              style={{ marginBottom: "6px" }}
-            >
-              socify.vercel.app
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="socify.vercel.app"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 fontSize: "14px",
@@ -313,13 +334,18 @@ function ProjectCard() {
             >
               M L Shop
             </h2>
-            <a
-              href="mlshopusa.com"
-              target="_blank"
-              style={{ marginBottom: "6px" }}
-            >
-              www.mlshopusa.com
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="mlshopusa.com"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 fontSize: "14px",
@@ -375,13 +401,18 @@ function ProjectCard() {
             >
               Portfolio
             </h2>
-            <a
-              href="www.aleclarkins.com"
-              target="_blank"
-              style={{ marginBottom: "6px" }}
-            >
-              www.aleclarkins.com
-            </a>
+            <div style={{ marginBottom: "10px" }}>
+              <a
+                href="aleclarkins.com"
+                target="_blank"
+                style={{
+                  color: "#6998AB",
+                  textDecoration: "none",
+                }}
+              >
+                View Site <BiLinkExternal />
+              </a>
+            </div>
             <p
               style={{
                 fontSize: "14px",
