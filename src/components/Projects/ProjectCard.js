@@ -138,7 +138,8 @@ function ProjectCard() {
                   textDecoration: "none",
                 }}
               >
-                View Site <BiLinkExternal />
+                <span className="websiteLink">View Site</span>{" "}
+                <BiLinkExternal className="websiteLink" />
               </a>
             </div>
             <p
