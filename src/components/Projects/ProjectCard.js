@@ -38,7 +38,11 @@ function ProjectCard() {
             <a
               href="socify.vercel.app"
               target="_blank"
-              style={{ marginBottom: "6px", color: "#6998AB" }}
+              style={{
+                marginBottom: "12px",
+                color: "#6998AB",
+                textDecoration: "none",
+              }}
             >
               View Site <BiLinkExternal />
             </a>
