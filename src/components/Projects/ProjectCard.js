@@ -37,7 +37,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="socify.vercel.app"
+                href="https://socify.vercel.app"
                 target="_blank"
                 style={{
                   color: "#6998AB",
@@ -129,7 +129,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="mlshopusa.com"
+                href="https://www.mlshopusa.com"
                 target="_blank"
                 style={{
                   color: "#6998AB",
@@ -189,7 +189,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="aleclarkins.com"
+                href="https://www.aleclarkins.com"
                 target="_blank"
                 style={{
                   color: "#6998AB",
@@ -262,7 +262,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="socify.vercel.app"
+                href="https://www.socify.vercel.app"
                 target="_blank"
                 style={{
                   color: "#6998AB",
@@ -336,7 +336,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="mlshopusa.com"
+                href="https://www.mlshopusa.com"
                 target="_blank"
                 style={{
                   color: "#6998AB",
@@ -403,7 +403,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="aleclarkins.com"
+                href="https://www.aleclarkins.com"
                 target="_blank"
                 style={{
                   color: "#6998AB",
