@@ -3,8 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import socifyMockup from "../../images/Socify-Mockup.png";
 import mlshopMockup from "../../images/mlshopMockup.png";
 import aleclarkinsMockup from "../../images/aleclarkins-site.png";
-
-import projectOnePhoto from "../../images/ProjectPhotoOne.png";
+import { BiLinkExternal } from "react-icons/bi";
 
 import "./Projects.css";
 
@@ -12,7 +11,9 @@ function ProjectCard() {
   return (
     <section>
       <div className="projectCardsDiv">
-        <Row style={{ padding: "35px 0" }}>
+        <Row
+          style={{ padding: "35px 0", display: "flex", alignItems: "center" }}
+        >
           <Col
             data-aos="fade-right"
             data-aos-offset="150"
@@ -34,8 +35,12 @@ function ProjectCard() {
             >
               Socify
             </h2>
-            <a href="socify.vercel.app" target="_blank">
-              socify.vercel.app
+            <a
+              href="socify.vercel.app"
+              target="_blank"
+              style={{ marginBottom: "6px", color: "#6998AB" }}
+            >
+              View Site <BiLinkExternal />
             </a>
             <p
               style={{
@@ -110,7 +115,11 @@ function ProjectCard() {
             >
               M L Shop
             </h2>
-            <a href="mlshopusa.com" target="_blank">
+            <a
+              href="mlshopusa.com"
+              target="_blank"
+              style={{ marginBottom: "6px" }}
+            >
               www.mlshopusa.com
             </a>
             <p
@@ -159,7 +168,11 @@ function ProjectCard() {
             >
               Portfolio
             </h2>
-            <a href="www.aleclarkins.com" target="_blank">
+            <a
+              href="www.aleclarkins.com"
+              target="_blank"
+              style={{ marginBottom: "6px" }}
+            >
               www.aleclarkins.com
             </a>
             <p
@@ -223,7 +236,11 @@ function ProjectCard() {
             >
               Socify
             </h2>
-            <a href="socify.vercel.app" target="_blank">
+            <a
+              href="socify.vercel.app"
+              target="_blank"
+              style={{ marginBottom: "6px" }}
+            >
               socify.vercel.app
             </a>
             <p
@@ -288,7 +305,11 @@ function ProjectCard() {
             >
               M L Shop
             </h2>
-            <a href="mlshopusa.com" target="_blank">
+            <a
+              href="mlshopusa.com"
+              target="_blank"
+              style={{ marginBottom: "6px" }}
+            >
               www.mlshopusa.com
             </a>
             <p
@@ -346,7 +367,11 @@ function ProjectCard() {
             >
               Portfolio
             </h2>
-            <a href="www.aleclarkins.com" target="_blank">
+            <a
+              href="www.aleclarkins.com"
+              target="_blank"
+              style={{ marginBottom: "6px" }}
+            >
               www.aleclarkins.com
             </a>
             <p
