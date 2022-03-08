@@ -37,6 +37,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
+                className="websiteLink"
                 href="https://socify.vercel.app"
                 target="_blank"
                 style={{
@@ -129,6 +130,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
+                className="websiteLink"
                 href="https://www.mlshopusa.com"
                 target="_blank"
                 style={{
@@ -189,6 +191,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
+                className="websiteLink"
                 href="https://www.aleclarkins.com"
                 target="_blank"
                 style={{

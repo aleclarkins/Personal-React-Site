@@ -10,7 +10,7 @@ p {
   color: #fff;
 }
 
-a:hover {
+.websiteLink:hover {
   color: #ecb365;
 }
 
