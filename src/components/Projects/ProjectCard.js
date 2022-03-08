@@ -34,6 +34,9 @@ function ProjectCard() {
             >
               Socify
             </h2>
+            <a href="socify.vercel.app" target="_blank">
+              socify.vercel.app
+            </a>
             <p
               style={{
                 padding: "20px",
@@ -41,12 +44,17 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              A social media web app. The goal was to create a basic social
-              media site where users can log in and share posts with their
-              friends. Users are given the option to log in using their Facebook
-              or Google account. Upon logging in, you can create your own posts
-              with the option of including a photo. You can also like and
-              comment on other posts.
+              A social media web app. The app is connected to Google's Firebase
+              database to store all the posts and post data. User authenticaton
+              is done using NextAuth which allows users to log in with their
+              Google or Facebook account.
+              <br />
+              <br />
+              The goal was to create a basic social media site where users can
+              log in and share posts with their friends. Users are given the
+              option to log in using their Facebook or Google account. Upon
+              logging in, you can create your own posts with the option of
+              including a photo. You can also like and comment on other posts.
             </p>
             <p
               style={{
@@ -56,7 +64,7 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              NextJS TailwindCSS HTML5 NodeJS Vercel
+              NextJS TailwindCSS NextAuth Firebase NodeJS Vercel
             </p>
           </Col>
           <Col
@@ -102,6 +110,9 @@ function ProjectCard() {
             >
               M L Shop
             </h2>
+            <a href="mlshopusa.com" target="_blank">
+              www.mlshopusa.com
+            </a>
             <p
               style={{
                 padding: "20px",
@@ -122,7 +133,7 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              NextJS TailwindCSS HTML5 StorefrontAPI(Shopify)
+              NextJS TailwindCSS StorefrontAPI(Shopify) NodeJS Vercel
             </p>
           </Col>
         </Row>
@@ -146,8 +157,11 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              Portfolio
             </h2>
+            <a href="www.aleclarkins.com" target="_blank">
+              www.aleclarkins.com
+            </a>
             <p
               style={{
                 padding: "20px",
@@ -155,12 +169,10 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. Software
-              provided users with the ability to search, add and delete products
-              from the database and more. Created in an agile environment with a
-              total of three iterations over the course of three months.
+              Yes, this website is one of my projects. A personal portfolio site
+              created using ReactJS. I wanted to use this site to give everyone
+              an introduction to myself. Mainly to showcase my skillset and
+              projects.
             </p>
             <p
               style={{
@@ -170,7 +182,7 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              ReactJS HTML5 CSS3 ReactBootstrap NodeJS Vercel
             </p>
           </Col>
           <Col
@@ -181,7 +193,7 @@ function ProjectCard() {
           >
             <img
               alt="project three"
-              src={projectOnePhoto}
+              src={aleclarkinsMockup}
               style={{ width: "100%" }}
             />
           </Col>
@@ -209,8 +221,11 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              Socify
             </h2>
+            <a href="socify.vercel.app" target="_blank">
+              socify.vercel.app
+            </a>
             <p
               style={{
                 fontSize: "14px",
@@ -219,12 +234,12 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              NextJS TailwindCSS NextAuth Firebase NodeJS Vercel
             </p>
 
             <img
               alt="project one responsive version"
-              src={projectOnePhoto}
+              src={socifyMockup}
               style={{ width: "100%" }}
             />
             <p
@@ -237,14 +252,17 @@ function ProjectCard() {
                 lineHeight: "1.5",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. <br />
+              A social media web app. The app is connected to Google's Firebase
+              database to store all the posts and post data. User authenticaton
+              is done using NextAuth which allows users to log in with their
+              Google or Facebook account.
               <br />
-              Software provided users with the ability to search, add and delete
-              products from the database and more. Created in an agile
-              environment with a total of three iterations over the course of
-              three months.
+              <br />
+              The goal was to create a basic social media site where users can
+              log in and share posts with their friends. Users are given the
+              option to log in using their Facebook or Google account. Upon
+              logging in, you can create your own posts with the option of
+              including a photo. You can also like and comment on other posts.
             </p>
           </Col>
         </Row>
@@ -268,8 +286,11 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              M L Shop
             </h2>
+            <a href="mlshopusa.com" target="_blank">
+              www.mlshopusa.com
+            </a>
             <p
               style={{
                 fontSize: "14px",
@@ -278,12 +299,12 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              NextJS TailwindCSS StorefrontAPI(Shopify) NodeJS Vercel
             </p>
 
             <img
               alt="project two responsive version"
-              src={projectOnePhoto}
+              src={mlshopMockup}
               style={{ width: "100%" }}
             />
             <p
@@ -296,14 +317,10 @@ function ProjectCard() {
                 lineHeight: "1.5",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. <br />
-              <br />
-              Software provided users with the ability to search, add and delete
-              products from the database and more. Created in an agile
-              environment with a total of three iterations over the course of
-              three months.
+              An ecommerce site built for a client who wanted a simple online
+              platform to sell their products. Using Shopify's storefront API,
+              the client is able to manage their orders and inventory on
+              Shopify's seller dashboard.
             </p>
           </Col>
         </Row>
@@ -327,8 +344,11 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              Portfolio
             </h2>
+            <a href="www.aleclarkins.com" target="_blank">
+              www.aleclarkins.com
+            </a>
             <p
               style={{
                 fontSize: "14px",
@@ -337,12 +357,12 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              ReactJS HTML5 CSS3 ReactBootstrap NodeJS Vercel
             </p>
 
             <img
               alt="project three responsive version"
-              src={projectOnePhoto}
+              src={aleclarkinsMockup}
               style={{ width: "100%" }}
             />
             <p
@@ -355,14 +375,10 @@ function ProjectCard() {
                 lineHeight: "1.5",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. <br />
-              <br />
-              Software provided users with the ability to search, add and delete
-              products from the database and more. Created in an agile
-              environment with a total of three iterations over the course of
-              three months.
+              Yes, this website is one of my projects. A personal portfolio site
+              created using ReactJS. I wanted to use this site to give everyone
+              an introduction to myself. Mainly to showcase my skillset and
+              projects.
             </p>
           </Col>
         </Row>
