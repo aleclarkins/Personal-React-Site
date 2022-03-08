@@ -1,6 +1,11 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import socifyMockup from "../../images/Socify-Mockup.png";
+import mlshopMockup from "../../images/mlshopMockup.png";
+import aleclarkinsMockup from "../../images/aleclarkins-site.png";
+
 import projectOnePhoto from "../../images/ProjectPhotoOne.png";
+
 import "./Projects.css";
 
 function ProjectCard() {
@@ -27,7 +32,7 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              Socify
             </h2>
             <p
               style={{
@@ -36,12 +41,12 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. Software
-              provided users with the ability to search, add and delete products
-              from the database and more. Created in an agile environment with a
-              total of three iterations over the course of three months.
+              A social media web app. The goal was to create a basic social
+              media site where users can log in and share posts with their
+              friends. Users are given the option to log in using their Facebook
+              or Google account. Upon logging in, you can create your own posts
+              with the option of including a photo. You can also like and
+              comment on other posts.
             </p>
             <p
               style={{
@@ -51,7 +56,7 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              NextJS TailwindCSS HTML5 NodeJS Vercel
             </p>
           </Col>
           <Col
@@ -62,7 +67,7 @@ function ProjectCard() {
           >
             <img
               alt="project one"
-              src={projectOnePhoto}
+              src={socifyMockup}
               style={{ width: "100%" }}
             />
           </Col>
@@ -76,7 +81,7 @@ function ProjectCard() {
           >
             <img
               alt="project two"
-              src={projectOnePhoto}
+              src={mlshopMockup}
               style={{ width: "100%" }}
             />
           </Col>
@@ -95,7 +100,7 @@ function ProjectCard() {
             <h2
               style={{ fontSize: "20px", fontWeight: "600", color: "#1A374D" }}
             >
-              Inventory Management Software
+              M L Shop
             </h2>
             <p
               style={{
@@ -104,12 +109,10 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              Worked with a team of developers to design, code, and deliver an
-              inventory organization software. Built for companies to help keep
-              track of online sales and manage their inventory. Software
-              provided users with the ability to search, add and delete products
-              from the database and more. Created in an agile environment with a
-              total of three iterations over the course of three months.
+              An ecommerce site built for a client who wanted a simple online
+              platform to sell their products. Using Shopify's storefront API,
+              the client is able to manage their orders and inventory on
+              Shopify's seller dashboard.
             </p>
             <p
               style={{
@@ -119,7 +122,7 @@ function ProjectCard() {
                 wordSpacing: "15px",
               }}
             >
-              HTML5 CSS3 Bootstrap Javascript MySQL
+              NextJS TailwindCSS HTML5 StorefrontAPI(Shopify)
             </p>
           </Col>
         </Row>
