@@ -98,7 +98,7 @@ function NavBar() {
                 <Button
                   className="btn-rise"
                   target="_blank"
-                  href="https://github.com"
+                  href="https://www.github.com/aleclarkins"
                   style={{
                     marginTop: -3,
                     paddingTop: 3,
