@@ -57,17 +57,15 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              A social media web app. The app is connected to Google's Firebase
-              database to store all the posts and post data. User authenticaton
-              is done using NextAuth which allows users to log in with their
-              Google or Facebook account.
+              A social media web app created with NextJS. It is connected to
+              Google's Firebase database to store all the posts and images.
+              Using NextAuth, secure third-party authentication is done through
+              providers such as Google or Facebook.
               <br />
               <br />
               The goal was to create a basic social media site where users can
-              log in and share posts with their friends. Users are given the
-              option to log in using their Facebook or Google account. Upon
-              logging in, you can create your own posts with the option of
-              including a photo. You can also like and comment on other posts.
+              share posts with their friends and also like or comment on any
+              post.
             </p>
             <p
               style={{
@@ -152,10 +150,10 @@ function ProjectCard() {
                 borderRadius: "10px",
               }}
             >
-              An ecommerce site built for a client who wanted a simple online
-              platform to sell their products. Using Shopify's storefront API,
-              the client is able to manage their orders and inventory on
-              Shopify's seller dashboard.
+              A scalable and responsive ecommerce site built for a client who
+              wanted a simple online platform to sell their products.
+              Implemented Shopify's storefront API to allow the client to manage
+              their orders and inventory on Shopify's admin dashboard.
             </p>
             <p
               style={{
@@ -216,9 +214,9 @@ function ProjectCard() {
               }}
             >
               Yes, this website is one of my projects. A personal portfolio site
-              created using ReactJS. I wanted to use this site to give everyone
-              an introduction to myself. Mainly to showcase my skillset and
-              projects.
+              created using ReactJS. I mainly wanted to use this site to
+              showcase my skillset and projects but also give an introduction
+              about myself.
             </p>
             <p
               style={{
@@ -307,17 +305,15 @@ function ProjectCard() {
                 lineHeight: "1.5",
               }}
             >
-              A social media web app. The app is connected to Google's Firebase
-              database to store all the posts and post data. User authenticaton
-              is done using NextAuth which allows users to log in with their
-              Google or Facebook account.
+              A social media web app created with NextJS. It is connected to
+              Google's Firebase database to store all the posts and images.
+              Using NextAuth, secure third-party authentication is done through
+              providers such as Google or Facebook.
               <br />
               <br />
               The goal was to create a basic social media site where users can
-              log in and share posts with their friends. Users are given the
-              option to log in using their Facebook or Google account. Upon
-              logging in, you can create your own posts with the option of
-              including a photo. You can also like and comment on other posts.
+              share posts with their friends and also like or comment on any
+              post.
             </p>
           </Col>
         </Row>
@@ -381,10 +377,10 @@ function ProjectCard() {
                 lineHeight: "1.5",
               }}
             >
-              An ecommerce site built for a client who wanted a simple online
-              platform to sell their products. Using Shopify's storefront API,
-              the client is able to manage their orders and inventory on
-              Shopify's seller dashboard.
+              A scalable and responsive ecommerce site built for a client who
+              wanted a simple online platform to sell their products.
+              Implemented Shopify's storefront API to allow the client to manage
+              their orders and inventory on Shopify's admin dashboard.
             </p>
           </Col>
         </Row>
@@ -449,9 +445,9 @@ function ProjectCard() {
               }}
             >
               Yes, this website is one of my projects. A personal portfolio site
-              created using ReactJS. I wanted to use this site to give everyone
-              an introduction to myself. Mainly to showcase my skillset and
-              projects.
+              created using ReactJS. I mainly wanted to use this site to
+              showcase my skillset and projects but also give an introduction
+              about myself.
             </p>
           </Col>
         </Row>
