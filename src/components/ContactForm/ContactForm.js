@@ -85,7 +85,7 @@ function ContactForm() {
           <a
             style={{ padding: "10px" }}
             target="_blank"
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/aleclarkins"
           >
             <AiFillInstagram
               className="socialLinks"
@@ -108,7 +108,7 @@ function ContactForm() {
           <a
             style={{ padding: "10px" }}
             target="_blank"
-            href="https://www.github.io"
+            href="https://www.github.com/aleclarkins"
             className="socialLinks"
           >
             <AiFillGithub
@@ -120,7 +120,7 @@ function ContactForm() {
           <a
             style={{ padding: "10px" }}
             target="_blank"
-            href="https://www.twitter.com"
+            href="https://www.twitter.com/aleclarkins_"
             className="socialLinks"
           >
             <AiOutlineTwitter
