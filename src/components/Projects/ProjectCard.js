@@ -269,7 +269,7 @@ function ProjectCard() {
             </h2>
             <div style={{ marginBottom: "10px" }}>
               <a
-                href="https://www.socify.vercel.app"
+                href="https://socify.vercel.app"
                 target="_blank"
                 style={{
                   color: "#6998AB",
