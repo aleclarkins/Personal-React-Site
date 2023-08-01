@@ -78,33 +78,12 @@ function About() {
                 my first technology class. In high school, I took programming
                 and game development classes. Upon reaching college, I made the
                 decision to major in
-                <span className="span-text"> Computer Science</span> and I'm so
-                glad I did.
+                <span className="span-text"> Computer Science</span>.
                 <br />
                 <br />
                 Throughout my years in college, I learned many skills. Although
                 there is certainly more to learn, my passion for developing new
                 skills is what drives me to continue learning.
-                <br />
-                <br />
-                Outside of the coding world, here are a few things I enjoy
-                doing!
-                <br />
-                <br />
-                <ul>
-                  <li style={{ listStyle: "none" }}>
-                    <BsFillDiamondFill style={{ width: "15px" }} /> Playing
-                    guitar/drums
-                  </li>
-                  <li style={{ listStyle: "none" }}>
-                    <BsFillDiamondFill style={{ width: "15px" }} /> Playing
-                    video games
-                  </li>
-                  <li style={{ listStyle: "none" }}>
-                    <BsFillDiamondFill style={{ width: "15px" }} /> Eating good
-                    food
-                  </li>
-                </ul>
               </p>
             </Col>
             <Col md={4} className="about-content-right">
