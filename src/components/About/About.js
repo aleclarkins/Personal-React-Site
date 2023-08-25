@@ -71,19 +71,13 @@ function About() {
                   lineHeight: 1.5,
                 }}
               >
-                Hello, my name is
-                <span className="span-text"> Alec</span> and I'm from
-                <span className="span-text"> Anaheim Hills, CA</span>. I started
-                developing a passion for technology in middle school when I took
-                my first technology class. In high school, I took programming
-                and game development classes. Upon reaching college, I made the
-                decision to major in
-                <span className="span-text"> Computer Science</span>.
-                <br />
-                <br />
-                Throughout my years in college, I learned many skills. Although
-                there is certainly more to learn, my passion for developing new
-                skills is what drives me to continue learning.
+                Hi there! I'm a <span className="span-text">Frontend Developer</span> at <span className="span-text">Trusted Tech Team</span>, based in Irvine, California. My journey began with a BS in Computer Science from California State University, Fullerton, and has since led me to specialize in creating custom web solutions that prioritize seamless user experiences and scalability.
+                <br>
+                <br>
+                I'm proficient in various technologies, including JavaScript, HTML, CSS, Liquid, jQuery, Bootstrap, Node.js, and GitHub, with a particular focus on Shopify Plus, e-commerce integrations, and innovative web app developments.
+                <br>
+                <br>
+                Driven by a passion for the digital realm, I am always eager to dive into groundbreaking projects and push the boundaries of web development. 
               </p>
             </Col>
             <Col md={4} className="about-content-right">
