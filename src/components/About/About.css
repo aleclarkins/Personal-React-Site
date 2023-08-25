@@ -8,6 +8,9 @@
   text-align: center;
   padding-left: 50px !important;
   padding-right: 75px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about-content-left p {
   text-align: left;
@@ -95,7 +98,7 @@
 
 .about-content-right {
   text-align: center;
-  padding: 8rem 0;
+/*   padding: 8rem 0; */
 }
 
 .skillsTabs {
