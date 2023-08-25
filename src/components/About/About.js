@@ -72,11 +72,11 @@ function About() {
                 }}
               >
                 Hi there! I'm a <span className="span-text">Frontend Developer</span> at <span className="span-text">Trusted Tech Team</span>, based in Irvine, California. My journey began with a BS in Computer Science from California State University, Fullerton, and has since led me to specialize in creating custom web solutions that prioritize seamless user experiences and scalability.
-                </br>
-                </br>
+                <br></br>
+                <br></br>
                 I'm proficient in various technologies, including JavaScript, HTML, CSS, Liquid, jQuery, Bootstrap, Node.js, and GitHub, with a particular focus on Shopify Plus, e-commerce integrations, and innovative web app developments.
-                </br>
-                </br>
+                <br></br>
+                <br></br>
                 Driven by a passion for the digital realm, I am always eager to dive into groundbreaking projects and push the boundaries of web development. 
               </p>
             </Col>
